@@ -1,6 +1,6 @@
 {
   "name": "react-native-firebase-test-lab",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Check if the app is running on Firebase test device.",
   "scripts": {
     "lint": "eslint --ext js,md .",
