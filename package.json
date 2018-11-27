@@ -29,7 +29,9 @@
   },
   "files": [
     "*.md",
-    "index.js"
+    "index.js",
+    "index.android.js",
+    "android"
   ],
   "keywords": [
     "react-native"
