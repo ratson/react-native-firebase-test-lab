@@ -13,7 +13,9 @@
   "devDependencies": {
     "eslint": "^5.9.0",
     "eslint-config-concise": "^0.34.0",
+    "eslint-config-concise-esnext": "^0.34.0",
     "eslint-config-concise-jest": "^0.34.0",
+    "esm": "^3.0.84",
     "husky": "^1.2.0",
     "jest": "^23.6.0",
     "lint-staged": "^8.1.0",

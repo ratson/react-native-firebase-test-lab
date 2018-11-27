@@ -1,5 +1,7 @@
 'use strict'
 
-test('ok', () => {
-  expect(false).toBe(true)
+const { isTestDevice } = require('esm')(module)('./index.js')
+
+test('return false when not running of Firebase', () => {
+  expect(isTestDevice()).resolves.toBe(false)
 })

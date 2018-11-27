@@ -1,4 +1,4 @@
-export const isTestDevice = () => false
+export const isTestDevice = async () => false
 
 export default {
   isTestDevice,
