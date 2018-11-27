@@ -1,0 +1,48 @@
+{
+  "name": "react-native-firebase-test-lab",
+  "version": "0.0.0",
+  "description": "Check if the app is running on Firebase test device.",
+  "scripts": {
+    "lint": "eslint --ext js,md .",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.41.2"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-concise": "^0.34.0",
+    "eslint-config-concise-jest": "^0.34.0",
+    "husky": "^1.2.0",
+    "jest": "^23.6.0",
+    "lint-staged": "^8.1.0",
+    "npm-run-all": "^4.1.5",
+    "prettier-eslint-cli": "^4.7.1"
+  },
+  "repository": "ratson/react-native-firebase-test-lab",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "*.md",
+    "index.js"
+  ],
+  "keywords": [
+    "react-native"
+  ],
+  "lint-staged": {
+    "*.js": [
+      "prettier-eslint --write",
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "jest"
+    }
+  }
+}
