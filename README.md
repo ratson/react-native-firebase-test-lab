@@ -4,11 +4,18 @@ Check if the app is running on Firebase test device.
 
 ## Installation
 
-```
-npm install react-native-firebase-test-lab --save
+`npm install react-native-firebase-test-lab --save`
 
-react-native link react-native-firebase-test-lab
-```
+or
+
+`yarn add react-native-firebase-test-lab`
+
+
+Auto-Linking is supported on react-native v0.60.0 and above.
+
+### For react-native 0.59.x or below
+
+`react-native link react-native-firebase-test-lab`
 
 ## Usage
 
